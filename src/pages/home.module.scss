@@ -1,1 +1,49 @@
-// TODO
+.post {
+  title {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    line-height: 2rem;
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--highlight);
+    }
+  }
+
+  .subtitle {
+    color: var(--text-body);
+    font-size: 1.125rem;
+    margin-top: 0.75rem;
+    line-height: 1.675rem;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.625rem;
+
+    color: var(--text-info);
+    margin-top: 1.5rem;
+    line-height: 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+.loadMore {
+  border: none;
+  background: none;
+  margin-top: 4rem;
+
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--highlight);
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
