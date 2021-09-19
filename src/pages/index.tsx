@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import Link from 'next/link';
@@ -75,36 +76,41 @@ export default function Home({ postsPagination }: HomeProps) {
   };
 
   return (
-    <div className={commonStyles.container}>
-      <div>
-        {posts.map(post => (
-          <Link key={post.uid} href={`/post/${post.uid}`}>
-            <a className={styles.post}>
-              <title>{post.data.title}</title>
-              <p className={styles.subtitle}>{post.data.subtitle}</p>
-              <div className={styles.info}>
-                <time>
-                  <FiCalendar /> {post.first_publication_date}
-                </time>
-                <p>
-                  <FiUser /> {post.data.author}
-                </p>
-              </div>
-            </a>
-          </Link>
-        ))}
-      </div>
+    <>
+      <Head>
+        <title>Home | spacetraveling</title>
+      </Head>
+      <div className={commonStyles.container}>
+        <div>
+          {posts.map(post => (
+            <Link key={post.uid} href={`/post/${post.uid}`}>
+              <a className={styles.post}>
+                <title>{post.data.title}</title>
+                <p className={styles.subtitle}>{post.data.subtitle}</p>
+                <div className={styles.info}>
+                  <time>
+                    <FiCalendar /> {post.first_publication_date}
+                  </time>
+                  <p>
+                    <FiUser /> {post.data.author}
+                  </p>
+                </div>
+              </a>
+            </Link>
+          ))}
+        </div>
 
-      {nextPage !== null && (
-        <button
-          type="button"
-          className={styles.loadMore}
-          onClick={handleLoadMore}
-        >
-          Carregar mais posts
-        </button>
-      )}
-    </div>
+        {nextPage !== null && (
+          <button
+            type="button"
+            className={styles.loadMore}
+            onClick={handleLoadMore}
+          >
+            Carregar mais posts
+          </button>
+        )}
+      </div>
+    </>
   );
 }
 

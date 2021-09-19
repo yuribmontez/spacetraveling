@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-return-assign */
 import { GetStaticPaths, GetStaticProps } from 'next';
-
+import Head from 'next/head';
 import Prismic from '@prismicio/client';
 import { format } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
@@ -57,6 +57,9 @@ export default function Post({ post }: PostProps) {
 
   return (
     <>
+      <Head>
+        <title>{post.data.title} | spacetraveling</title>
+      </Head>
       <img
         className={styles.postBanner}
         src={post.data.banner.url}
