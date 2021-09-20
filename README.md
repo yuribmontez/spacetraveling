@@ -61,7 +61,7 @@ $ yarn
 
 # Set your environment variables on a .env.local file following the .env.example instructions
 # Fill in the environment variables according to the instructions
-$ cp .env.local.example .env.local
+$ cp .env.example .env.local
 
 # Run project
 $ yarn dev
