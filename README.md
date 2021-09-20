@@ -17,7 +17,9 @@ The app was developed applying the concepts of Static Site Generation (SSG) and 
 
 The project was developed as a challenge for [Rocketseat](https://rocketseat.com.br)'s Ignite module.
 
-<!-- ![cover]() -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/77989191/133948445-5c359a2d-b545-440e-8cc8-d6ded4cb37b8.png" width="1000px"/>
+</div>
 
 
 
