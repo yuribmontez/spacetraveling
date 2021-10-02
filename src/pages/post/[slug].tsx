@@ -143,7 +143,7 @@ export default function Post({ post, prevPost, nextPost, preview }: PostProps) {
               <Link href={`/post/${nextPost.uid}`}>
                 <a>
                   <h6>{nextPost.data.title}</h6>
-                  <p className={styles.nextPost}>Post anterior</p>
+                  <p className={styles.nextPost}>Próximo post</p>
                 </a>
               </Link>
             </div>
