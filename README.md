@@ -21,6 +21,8 @@ As a complementary challenge, the following changes were added:
 
 The project was developed as a challenge for [Rocketseat](https://rocketseat.com.br)'s Ignite module.
 
+You can check out a working version of the project at [spacetraveling](https://spacetraveling-alpha.vercel.app).
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/77989191/133948445-5c359a2d-b545-440e-8cc8-d6ded4cb37b8.png" width="1000px"/>
 </div>
