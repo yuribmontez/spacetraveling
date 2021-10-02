@@ -13,6 +13,11 @@ export default class MyDocument extends Document {
           />
 
           <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+          <script
+            async
+            defer
+            src="https://static.cdn.prismic.io/prismic.js?new=true&repo=ybm-spacetraveling"
+          />
         </Head>
         <body>
           <Main />
