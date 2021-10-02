@@ -12,7 +12,11 @@ The project aims to study and develop an application in ReactJS with NextJS for 
 
 The app was developed applying the concepts of Static Site Generation (SSG) and using Prismic CMS for adding and managing the content of posts.
 
-<!-- As a complementary challenge, comments section was added using Utterances, access to Preview Prismic CMS posts, navigation control inside the post to go to the next / previous and addition of tag with data from when the post was last edited. -->
+As a complementary challenge, the following changes were added:
+- Data from when the post was last edited;
+- Comments section using Utterances;
+- Access to preview Prismic CMS posts;
+- Navigation control inside the post page to go to the next/previous posts.
 
 
 The project was developed as a challenge for [Rocketseat](https://rocketseat.com.br)'s Ignite module.
@@ -32,7 +36,7 @@ This app features all the latest tools and practices in front-end development!
 - [TypeScript](https://www.typescriptlang.org/)
 - [SASS](https://sass-lang.com/)
 - [Prismic CMS](https://prismic.io/)
-<!-- - [Utterances](https://utteranc.es/) -->
+- [Utterances](https://utteranc.es/)
 
 ## ✅ Requirements:
 
@@ -41,9 +45,9 @@ This app features all the latest tools and practices in front-end development!
 Account on the following services:
 
 - [Prismic](https://prismic.io)
-<!-- - [Utterances]() -->
+- [Utterances](https://https://utteranc.es)
 
-*Services settings are located in the [prismic.md](./prismic.md)*
+*Services settings are located at [prismic.md](./prismic.md) and [utterances.md](./utterances.md)*
 
 ### 🚀  Getting started
 

@@ -18,8 +18,8 @@ Fields:
 
 In the "Documents" tab it will be possible to add the posts.
 
-<!-- To configure previews you will need to go to settings>Previews and add a Previews configuration:
+To configure previews you will need to go to settings > Previews and add some Previews configuration:
 
 - Website name: domain for your application - http://localhost:3000 - (in case of local development)
 
-Link Resolver: /api/preview -->
+Link Resolver: /api/preview
